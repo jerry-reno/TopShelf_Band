@@ -1,0 +1,70 @@
+  body {
+    color: white;  
+    background-color: black;
+    font-family: 'Bookman Old Style', sans-serif;
+    font-size: medium;}
+
+  nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100vw;
+    z-index: 1;}
+
+  nav ul li {
+    float: right;
+    margin-right: 50px;
+    list-style-type: none;
+    text-align: center;}
+
+  #title {
+    float: left;}
+
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    font-family: 'Bookman Old Style', san-serif;
+    font-size: large;
+    font-weight: bold;}
+
+  .nav-link:hover {
+    color: darkred;
+    font-weight: bold;}
+
+  #home {
+    margin-top: 0px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 50vh;
+    padding-top: 3em;
+    background: url('./assets/TopShelf_banner.jpg') center 25% no-repeat fixed;
+    background-size: auto;}
+
+  h1 {
+    font-family: 'Bookman Old Style', san-serif;
+    color: white;}
+
+  .main {
+    text-align: center;}
+
+  #about {
+    margin-top: 50px;
+    display: inline-block;}
+
+  #picture {
+    width: 30vw;
+    float: left;}
+
+  #logo {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0.4em;
+    box-shadow: 2px 2px 2px black;}
+
+  #story {
+    width: 40vw;
+    float: right;}
